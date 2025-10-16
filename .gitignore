@@ -1,0 +1,87 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg-info/
+*.egg
+*.dist-info/
+*.log
+
+# ========================
+# Virtual Environments
+# ========================
+venv/
+env/
+.venv/
+subha/
+
+# ========================
+# IDE / Editor
+# ========================
+.vscode/
+*.code-workspace
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Docker
+# ========================
+*.dockerignore
+*.tar
+*.img
+docker-compose.override.yml
+
+# ========================
+# FAISS / Vectorstore
+# ========================
+# Optional: Ignore vectorstore if too large
+vectorStore/
+
+# ========================
+# Env / Secrets
+# ========================
+.env
+.env.local
+.env.*.local
+
+# ========================
+# Logs
+# ========================
+logs/
+*.log
+
+# ========================
+# Build / Packaging
+# ========================
+build/
+dist/
+*.tar.gz
+*.whl
+
+# ========================
+# Database / Cache
+# ========================
+*.sqlite3
+*.db
+*.sqlite
+__pycache__/
+*.cache/
+
+# ========================
+# Hugging Face / Space temp files
+# ========================
+*.lock
+*.h5
+*.pt
